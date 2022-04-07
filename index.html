@@ -1,0 +1,493 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>NEWSFLIX</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link   rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="header-cor" style="background-image: url(imagens/back.jpeg);">
+  <header class="container header" > 
+      
+    <div class="row">
+      <div class="col-12 header_area " style="background-color: white;">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+            <img src="imagens/logo.jpg" class="logo">
+          </div>
+          
+          <div class="col-12 col-sm-12 col-md-8 col-lg-7 menu_area">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+              <div></div>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                  <i> <img src="fa fa-bars"></i>
+                  <i><img src="fa fa-times-circle" alt=></i>
+                </label>
+                
+                <a class="flex-sm-fill text-sm-center nav-link " href="#anchor1">Lançamentos</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#anchor2" style="margin-left: 10px; " >Em destaque</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#anchor3" style="margin-left: 10px; " >Avaliações</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#anchor4" style="margin-left: 10px; " >Entrevista e Making of</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#anchor5" style="margin-left: 10px; " >Novidades</a>
+            </nav>
+          </div>
+          <div class="col-12 col-sm-12 col-md-8 col-lg-3 menu_area">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="pesquisar filmes" aria-label="Search">
+                <button type="submit" style="margin-right: 5px;">OK</button>
+              </div>            
+            </form>
+          </div>
+        </div>
+      </div>
+    <div>
+  </header>
+  </div>
+
+  <main class="container main" id="anchor1">
+    <div class="row">
+      <div class="col-12">
+        <!--area do main-->
+        <div class="row main_area" >
+          <div class="col-12">
+            <!--carousel--> 
+            <div id="carousel-site" class="carousel slide" data-ride="carousel">
+              <ol  class="carousel-indicators">
+                <li  data-target="#carousel-site" data-slide-to="0" class="active"></li>
+                <li  data-target="#carousel-site" data-slide-to="1"></li>
+                <li  data-target="#carousel-site" data-slide-to="2"></li>
+                <li  data-target="#carousel-site" data-slide-to="3"></li>
+
+              </ol>
+              <div class="carousel-inner">
+
+                
+
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="carousel-lancamento" style="text-align: center; background-color:rgb(248, 213, 97); color:black;">Lançamentos</h1>
+                    </div>
+                    <div  class="col-12 col-sm-12 col-md-12 col-lg-7">
+                      <iframe id="carousel-estilo-do-video" src="https://www.youtube.com/embed/411aCkoMEmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div id="carousel-texto"style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                      <h4><strong>Espiral - O Legado de Jogos Mortais</strong><h4>
+                      <p><strong>Sinopse:</strong>O Legado de Jogos Mortais, sob o comando do veterano da polícia Marcus (Samuel L. Jackson), 
+                        o detetive Ezekiel "Zeke" Banks (Chris Rock) se une ao seu parceiro novato Willem (Max Minghella) 
+                        para desvendar uma série de assassinatos terríveis que estão acontecendo na cidade. 
+                      <br>
+                      <strong>Diretor: Darren Lynn Bousman</strong>   
+                      <br>                  
+                      <strong>Estréia: </strong>14 de maio de 2021
+                      <br>
+                      <strong>Nota: </strong>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="carousel-lancamento" style="text-align: center; background-color:rgb(248, 213, 97); color:black;">Lançamentos</h1>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                      <iframe id="carousel-estilo-do-video" src="https://www.youtube.com/embed/zDFgm9MGxHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div id="carousel-texto"style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                      <h4><strong>Sem remorso</strong></h4>
+                      <p><strong>Sinopse:</strong>Um caixa de banco preso a uma entediante rotina tem sua vida virada de 
+                        cabeça para baixo quando ele descobre que é personagem em um brutalmente realista vídeo game de mundo aberto.
+                         Agora ele precisa aceitar sua realidade e lidar com o fato de que é o único que pode salvar o mundo.
+                      <br>
+                      <strong>Diretor: Stefano Sollima</strong>                     
+                      <br>
+                      <strong>Estréia: </strong>30 de abril de 2021
+                      <br>
+                      <strong>Nota: </strong>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star "></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-12">
+                        <h1 class="carousel-lancamento" style="text-align: center; background-color:rgb(248, 213, 97); color: black;">Lançamentos</h1>
+                      </div>
+                      <div  class="col-12 col-sm-12 col-md-12 col-lg-7">
+                        <iframe id="carousel-estilo-do-video" src="https://www.youtube.com/embed/yw3LOfN7wEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <div id="carousel-texto"style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                        <h4><strong>Velozes e Furiosos 9</strong></h4>
+                        <p><strong>Sinopse:</strong>A aclamada cineasta Niki Caro dá vida à épica lenda da icônica guerreira chinesa em "Mulan", 
+                          da Disney, em que uma jovem destemida arrisca a própria vida por amor à família e à pátria para se tornar uma das maiores guerreiras de toda a China. 
+
+                        <br>
+                        <strong>Diretor: Justin Lin</strong>                     
+
+                        <strong>Estréia: </strong>22 de julho de 2021
+                        <br>
+                        <strong>Nota: </strong>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                <div class="carousel-item">
+                  <div  class="row" >
+                    <div class="col-12">
+                      <h1 class="carousel-lancamento" style="text-align: center; background-color:rgb(248, 213, 97); color:black;">Lançamentos</h1>
+                    </div>
+                    <div  class="col-12 col-sm-12 col-md-12 col-lg-7">
+                      <iframe id="carousel-estilo-do-video" src="https://www.youtube.com/embed/Lk7LPTq0_XY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div id="carousel-texto"style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                      <h4><strong>Viuva Negra</strong></h4>
+                      <p><strong>Sinopse:</strong>Um agente da CIA, conhecido como O Protagonista, é recrutado por uma organização misteriosa chamada Tenet para participar 
+                        de uma missão de escala global. Eles precisam impedir que Andrei Sator, um renegado oligarca russo com habilidades de precognição, 
+                        inicie a Terceira Guerra Mundial.
+                      
+                      <br>
+                      <strong>Diretor: Cate Shortland</strong>                     
+
+                      <strong>Estréia: </strong>9 de julho de 2021
+                      <br>
+                      <strong>Nota: </strong>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star "></span>
+                      <span class="fa fa-star "></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <a class="carousel-control-prev" href="#carousel-site" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-site" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Avançar</span>
+              </a>
+              
+            </div>
+          </div>
+          <!--Em destaque-->
+          <div class="col-6"  id="anchor2">
+            <section class="texto-das-secoes">
+              <h2 class="" style="color: azure">Em destaque</h2>
+            </section>
+          </div>
+          <div class="col-6" >
+            <section class="texto-das-secoes">
+                
+              <ul class="nav nav-pills">
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categoria: Todos</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Aventura</a>
+                    <a class="dropdown-item" href="#">Romance</a>
+                    <a class="dropdown-item" href="#">Comédia</a>
+                  </div>
+                </li>
+              </ul>
+            </section>
+          </div>
+          <div class="col-12">
+            <section class="row em-destaque-filmes">
+                
+              <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <img src="imagens/ww.jpg">
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <img src="imagens/fuja.jpg">
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <img src="imagens/kong.jpeg">
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                <img src="imagens/space.jpg">
+              </div>
+            </section>
+          </div>
+          <div id="botoes-das-secoes"class="col-12">
+            <button type="button" class="btn btn-dark" style="margin-right: 10px;"><h4>+</h4><p> Carregar mais filmes</p></button>
+          </div>
+
+          <!--Ultimas avaliações-->
+          <div class="col-12 ultimas-avaliacoes-editar-texto" id="anchor3">
+            <section class="texto-das-secoes">
+              <h2 class="" style="color: azure;">Últimas Avaliações</h2>
+            </section>
+          </div>
+          <div class="col-12">
+            <section class="row ultimas-avaliacoes-comentarios">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 ">
+                <div class="row ultimas-avaliacoes-comentarios-editar">
+                  <div class="col-4">
+                    <img src="imagens/avatar1.png">
+                  </div>
+                  <div class="col-8 ">
+                    <h3>Rodrigo Gomes</h3>
+                    <p>Definitivamente os produtores e diretores dessa franquia sabem fazer um filme. As cenas exageradas são as melhores...incríveis e de pura adrenalina. O elenco é a verdadeira família...tudo demais.</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <strong>15/04/2017</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="row ultimas-avaliacoes-comentarios-editar">
+                  <div class="col-4 ">
+                    <img src="imagens/avatar2.png">
+                  </div>
+                  <div class="col-8 ">
+                    <h3>Jeison V</h3>
+                    <p>Assisti o filme hoje na pré estréia e achei decepcionante não existe terror algum além de jump scares, filme longo d+ e enrolado o que o torna tedioso... muitas piadinhas tirando foco do filme quase o tornando um filme de comédia com toques de fantasia com alguns sustos de bônus.</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star "></span>
+                    <strong>05/09/2019</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <div class="row ultimas-avaliacoes-comentarios-editar">
+                  <div class="col-4">
+                    <img src="imagens/avatar3.png">
+                  </div>
+                  <div class="col-8">
+                    <h3>Luana O.</h3>
+                    <p>Gostei demais! O filme é bastante objetivo e sem enrolação, sua dinâmica é tão boa que o filme passou tão rápido que eu nem percebi. A história prende do início ao fim com cenas de muita tensão e mistério. Ótimo suspense. Valeu pela expectativa.</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <strong>07/03/2021</strong>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+          </div>
+
+          <div id="botoes-das-secoes"class="col-12">
+            
+            <button type="button" class="btn btn-dark" style="margin-right: 10px;"><h4>+</h4><p> Carregar mais avaliações</p></button>
+
+          </div>
+
+          <!--Entrevistas & Making of-->
+          <section class="cor-entrevistas">
+            <div class="col-12" id="anchor4">
+              <section class="texto-das-secoes">
+                <h2 class="" >Entrevistas & Making of</h2>
+              </section>
+            </div>
+            <div class="col-12">
+              <section class="row entrevistas-making-of">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 ">
+                  <div class="row entrevistas-making-of-editar">
+                    <div class="col-12">
+                      <iframe src="https://www.youtube.com/embed/zd5CUyzTc34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-12 ">
+                      <h3>Making Of - Velozes e Furiosos 8</h3>
+                      <p><strong>Diretor:</strong>F. Gary Gray</p>
+                      <p><strong>Estreia:</strong> 13 de abril de 2017 </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 ">
+                  <div class="row entrevistas-making-of-editar">
+                    <div class="col-12">
+                      <iframe src="https://www.youtube.com/embed/gM_y2ATCpXA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-12 ">
+                      <h3>Making Of - Avengers: Infinity War</h3>
+                      <p><strong>Diretor:</strong>Joe Russo, Anthony Russo</p>
+                      <p><strong>Estreia:</strong>26 de abril de 2018</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 ">
+                  <div class="row entrevistas-making-of-editar">
+                    <div class="col-12">
+                      <iframe src="https://www.youtube.com/embed/-4zVqbFoJoA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-12 ">
+                      <h3>Making Of - IT - Chapter Two</h3>
+                      <p><strong>Diretor:</strong>Andy Muschietti</p>
+                      <p><strong>Estreia:</strong>5 de setembro de 2019 </p>
+                    </div>
+                  </div>
+                </div>
+                
+              </section>
+            </div>
+            <div id="botoes-das-secoes"class="col-12">
+              <button type="button" class="btn btn-dark" style="margin-right: 10px;"><h4>+</h4><p> Carregar mais filmes</p></button>
+            </div>
+          </section>
+
+          <!--novidades e sobre-->
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8  novidades" id="anchor5">
+            <section class="texto-das-secoes">
+              <h2 class="" style="color: azure;">Novidades</h2>
+            </section>
+            
+            <section class="row editar-novidades editar-novidades-barra">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 ">
+                  <img class="novidades-imagens" src="imagens/soul.jpeg">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 ">
+                  <h3 style="color: azure;">Oscar 2021: Onde assistir a todos os indicados a Melhor Animação neste ano?</h3>
+                  <p style="color: azure;">De Soul a Wolfwalkers, todos os filmes da categoria estão disponíveis no streaming!.</p>
+                </div>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                  <img class="novidades-imagens" src="imagens/liga.jpg">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                  <h3 style="color: azure;">Diretor de Liga da Justiça ameaçou carreira de Gal Gadot</h3>
+                  <p style="color: azure;">Atriz de Mulher-Maravilha e a diretora Patty Jenkins chegaram a marcar uma reunião com o presidente da Warner Bros.
+
+                </p>
+                
+                </div>
+            </section>
+
+            <section class="row editar-novidades">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                  <img class="novidades-imagens" src="imagens/fuja1.jpeg">
+                </div>
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                  <h3 style="color: azure;">Fuja: 4 perguntas não respondidas no suspense na Netflix</h3>
+                  <p style="color: azure;">Quais são as doenças reais de Chloe? Como fica Diane? Sarah Paulson e Kiera Allen deixam muitas pulgas atrás da orelha no thriller que está fazendo sucesso na plataforma.</p>
+                
+                </div>
+            </section>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 ">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <section class="texto-das-secoes">
+              <h2 class="" style="color: azure;">Sobre</h2>
+              <p style="color: azure;">Site desenvolvido por Larissa Leite para a disciplina Desenvolvimento de Interfaces Web na PUC-MINAS</p>
+              <h2 style="color: azure;">Editorial</h2>
+
+              <section class="row">
+                <div class="col-2">
+                  <img src="imagens/icon-avatar.png" >
+                </div>
+                <div class="col-10">
+                  <p style="color: azure;"><strong>Redação:</strong> Larissa Leite</p>
+                </div>
+              </section>
+              
+              <section class="row">
+                <div class="col-2">
+                  <img src="imagens/icon-avatar.png" >
+                </div>
+                <div class="col-10">
+                  <p style="color: azure;"><strong>Pesquisa:</strong> Larissa Leite</p>
+                </div>
+              </section>
+
+              <section class="row">
+                <div class="col-2">
+                  <img src="imagens/icon-avatar.png" >
+                </div>
+                <div class="col-10">
+                  <p style="color: azure;"><strong>Gerente Geral:</strong> Larissa Leite</p>
+                </div>
+              </section>
+
+              <br><br>
+              <h2 style="color: azure;">Redes Sociais:</h2>
+              <div class="rede">
+              <a><img src="imagens/iconeface.png" href="https://www.facebook.com/" style="margin-right: 5px;" target="_blank"></a>
+              <img src="imagens/twitter.png" href="https://www.twitter.com/" alt="">
+              <img src="imagens/iconeinsta.png" href="https://www.instagram.com/" target="_blank">
+            </div>
+
+            </section>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <div class="footer-cor">
+    <footer class="container footer">
+
+        <div class="row">
+            <div class="col-10 footer_area">
+                Copyright 2021 - Disciplina de Desenvolvimento de interfaces Web - ICEI PUC MINAS
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>
